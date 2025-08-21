@@ -3,7 +3,7 @@
   const key='theme';
   const btn=document.getElementById('theme-toggle');
 
-  //To use saved theme or system preferane
+  //To use saved theme or system preferance
   const prefersDark =
     window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
   const saved=localStorage.getItem(key);

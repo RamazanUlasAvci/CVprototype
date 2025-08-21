@@ -35,7 +35,7 @@ a {
   text-decoration-thickness: .12em;
   text-underline-offset: .17em;
 }
-a:hover { text-decoration: underline; }
+a:hover { text-decoration: underline;} /*shows underline on hover*/
 
 .wrap {
   flex: 1;
@@ -98,6 +98,7 @@ header {
 :root[data-theme="dark"] .top-right img[alt*="github"] {
   filter: brightness(1.6) contrast(1.2);
 } /*makes the github image slightly brighter on dark mode*/
+
 
 .theme-toggle {
   display: grid;
@@ -170,7 +171,7 @@ aside h2, section h2{
 .middle-header li {line-height: 1.7;}
 
 .list-reset {list-style: none; padding: 0; margin: 0;}
-.box + .box {margin-top: 14px; }
+.box + .box {margin-top: 14px;}/*useful for ordering similar objects*/
 
 aside h2:nth-of-type(3) + ul.box.list-reset.meta{
   display: flex;
